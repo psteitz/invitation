@@ -1,5 +1,14 @@
 # Trigonometric functions
 ## Pythagorean theorem
+Given a right triangle with altitude $a$, base $b$ and hypotenuse length $c$, we have
+
+$a^2 + b*2 = c^2$
+
+Use the Pythagorean theorem to write an expression for the distance between the two points
+
+$(x_1, y_1)$ and $(x_2,y_2)$
+
+The (Euclidean, metric) *norm* of a point $(x, y)$ in the plane (what we call 
 
 ## Definition of sine and cosine
 The *unit circle* is the circle of radius $1$ centered at the origin in the 2-dimensional plane.  
@@ -15,8 +24,8 @@ We call the unit of measure when we measure arc length around the unit circle *r
 $sin(x \pm 2\pi) = sin(x)$ for all $x$ and same for $cos$. 
 
 ## Special values
- 1. Find $$cos(\pi/4)$$ using the fact that when $$x$$ is $$\pi/4$$, $$x$$, the angle is 45 degrees, so $$sin(x)$$ and $$cos(x)$$ must be the same value.
- 2. Find $$sin$$ and $$cos$$ for all multiples of $$pi/4$$ up to $$2\pi$$.
+ 1. Find $$cos(\pi/4)$$ using the fact that when $x$ is $\pi/4$, $x$, the angle is 45 degrees, so $sin(x)$ and $cos(x)$ must be the same value.
+ 2. Find $sin$ and $cos$ for all multiples of $pi/4$ up to $2\pi$.
  3. Use 30-60-90 triangle to fill in values for all multiples of $$\pi/6$$
 ## Graphs of sine and cosine
  1. Make tables for the sin and cosine functions for the special values (multiples of $\pi/4$ and $\pi/6$)
