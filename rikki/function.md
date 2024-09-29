@@ -6,19 +6,21 @@ It is not required that every element of $Y$ is the image of some element of $X$
 
 ## Function examples and non-examples
 
-Which of the following are functions?
+We use $\mathbb{R}$ to represent the set of real numbers. For now, consider the real numbers to be all magnitudes
+that can be measured off positively or negatively starting at 0.  All points on the number line.
 
- ${(a, 2a) : a \elt R}\\$
- ${(\sqrt(y), y) : y \elt R}\\$
- ${(x, y) : x \elt \mathbb{R} and y = 1 if y is rational, 0 otherwise}\\$
- ${(x,y) : (x,y) is a point on a circle of radius 1 around (0,0)}\\$
+Which of the following are functions?
+ 1. $\\{(a, 2a) : a \in \mathbb{R}\\}$
+ 2. $\\{(\sqrt(y), y) : y \in \mathbb{R}\\}$
+ 3. $\\{(x, y) : x \in \mathbb{R}$ and $y = 1$ if $y$ is rational, $0$ otherwise $\\}$
+ 4. $\\{(x,y) : (x,y)$ is a point on a circle of radius $1$ around $(0,0)\\}$
 
 Provide an example of a function that maps multiple input values to the same output value.
 
-The *graph* of a function $f:\mathbb{R} \to \mathbb{R} is the set of points $(x,f(x))$ for $x \in \mathbb{R}.
+The *graph* of a function $f:\mathbb{R} \to \mathbb{R}$ is the set of points $(x,f(x))$ for $x \in \mathbb{R}$.
 Provide an example of a function $f$ whose graph can be drawn continuously without picking up your pencil.
 
-A *polynomial function* is a function that computes a weighted sum of powers of its inputs.  For example, 
+A *polynomial function* is a function that computes a weighted sum of powers of its input.  For example, 
 $f(x) = x^2 + 2x + 1$ and $g(x) = -8x^5 + 4x^3 + 2x^2 - 12x$ are polynomial functions. 
 
 What does it tell you about the value $x$ and the polynomial function $p$ when $(x,0)$ is on the graph of $p$?
