@@ -1,5 +1,8 @@
 # Trigonometric functions
 ## Pythagorean theorem
+
+<img src=https://miro.medium.com/v2/resize:fit:923/1*SsN2DG__Z5DyOI0uf7hbwQ.png width=400>
+
 Given a right triangle with altitude $a$, base $b$ and hypotenuse length $c$, we have
 
 $a^2 + b^2 = c^2$
@@ -13,10 +16,13 @@ Use the Pythgoran theorem to write an expression for the norm of $(x,y)$.
 
 ## Definition of sine and cosine
 The *unit circle* is the circle of radius $1$ centered at the origin in $\mathbb{R}^2$.  
+![image](https://www.mathsisfun.com/geometry/images/unit-circle.svg)
 
 The circumpherence of the unit circle is $2\pi$. 
 
 The $sin$ and $cos$ functions are defined by considering points on the unit circle as functions of the length of the arc leading to them.
+
+![image](https://d18l82el6cdm1i.cloudfront.net/uploads/hZzzziI3DV-sin-cos01.gif)
 
 For example, $1/4$ of the way around the circle is $1/4$ of $2\pi$ arc length or $\pi/2$. 
 
