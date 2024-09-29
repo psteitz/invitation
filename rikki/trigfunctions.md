@@ -37,6 +37,12 @@ $sin(x \pm 2\pi) = sin(x)$ for all $x$ and same for $cos$.
  1. Find $$cos(\pi/4)$$ using the fact that when $x$ is $\pi/4$, $x$, the angle is 45 degrees, so $sin(x)$ and $cos(x)$ must be the same value.
  2. Find $sin$ and $cos$ for all multiples of $pi/4$ up to $2\pi$.
  3. Use 30-60-90 triangle to fill in values for all multiples of $$\pi/6$$
+ <img src=https://lh4.googleusercontent.com/proxy/FwbSjQ5oGYt4QGbOzSuIOWJ8EX5XGbM45ss6BMCF1TSNTbBcXgT5Lo-Q87bBHYnovSB-9fh9QAuAXVLPBAo8x6h7nkONLoTMVc5Bc-Zbz69j4_oY8vn2L9EQUv-qgHUyAx0 width = 300>
+
 ## Graphs of sine and cosine
  1. Make tables for the sin and cosine functions for the special values (multiples of $\pi/4$ and $\pi/6$)
- 2. Create separate graphs for sin and cos by plotting the points and filling in a smooth curve between them
+ 2. Graph sin and cos together in one coordinate plane
+ 3. Describe the relationship betwen the two curves
+ 4. A function $f : \mathbb{R} \to \mathbb{R}$ is *strictly increasing* over the interval $[a,b]$ if for all $x_1$ and $x_2$ in $[a,b]$, if $x_1 < x_2$ then $f(x_1) < f(x_2)$. Find the subintervals within $[0,2\pi]$ over with the sin is strictly increasing.  Then do the same for the cosine.
+ 5. Fill in the blank: If the cos is ____ then the sin is increasing.  Explain why this is true.
+ 6. Select one: If the rate of change of cos is increasing at $x$ then $cos(x)$ is [ ] positive [ ] negative.  Explain.
