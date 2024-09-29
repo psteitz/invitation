@@ -2,17 +2,29 @@
 
 Suppose that $X$ and $Y$ are two sets.  A function from $X$ to $Y$ is a set of ordered pairs $(x,y)$ such that for every $x$ in $X$ there is exactly one $y$ in $Y$ such that $(x,y)$ is in the set.  Looked at another way, a function maps elements of its domain ($X$) into its range ($Y$). $X$ values are like keys in a dictionary for $Y$ values.
 
-It is not required that every element of $Y$ is the image of some element of $X$ and there may be multiple $x$ values that map to the same $y$.  The only thing that is required is that for each $x$ in $X$ there is exactly one $y$ in $Y$ such that $(x.y)$ is in the function.  Instead of saying $(x.y)$ is in $f$, we write $f(x) = y$. We write $f : X \to Y$ to mean $f$ is a function with domain $X$ and range a subset of $Y$.
+It is not required that every element of $Y$ is the image of some element of $X$ and there may be multiple $x$ values that map to the same $y$.  The only thing that is required is that for each $x$ in $X$ there is exactly one $y$ in $Y$ such that $(x,y)$ is in the function.  Instead of saying $(x,y)$ is in $f$, we write $f(x) = y$. We write $f : X \to Y$ to mean $f$ is a function with domain $X$ and range a subset of $Y$.
 
 ## Function examples and non-examples
 
 Which of the following are functions?
-{(a, 2a) : a \elt R}
-{(\sqrt(y), y) : y \elt R}
-{(x, y) : x \elt \R and y = 1 if y is rational, 0 otherwise}
-{(x,y) : (x,y) is a point on a circle of radius 1 around (0,0)}
+
+ ${(a, 2a) : a \elt R}\\$
+ ${(\sqrt(y), y) : y \elt R}\\$
+ ${(x, y) : x \elt \mathbb{R} and y = 1 if y is rational, 0 otherwise}\\$
+ ${(x,y) : (x,y) is a point on a circle of radius 1 around (0,0)}\\$
 
 Provide an example of a function that maps multiple input values to the same output value.
+
+The *graph* of a function $f:\mathbb{R} \to \mathbb{R} is the set of points $(x,f(x))$ for $x \in \mathbb{R}.
+Provide an example of a function $f$ whose graph can be drawn continuously without picking up your pencil.
+
+A *polynomial function* is a function that computes a weighted sum of powers of its inputs.  For example, 
+$f(x) = x^2 + 2x + 1$ and $g(x) = -8x^5 + 4x^3 + 2x^2 - 12x$ are polynomial functions. 
+
+What does it tell you about the value $x$ and the polynomial function $p$ when $(x,0)$ is on the graph of $p$?
+
+For $p(x) = x^2 + 2x + 1$, plot some points on its graph. Find the $x$ value that minimizes this function. 
+It is clear from the graph that this function never takes a negative value.  Why is that?
 
 
 ## Function properties
