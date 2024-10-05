@@ -11,7 +11,7 @@ that can be measured off positively or negatively starting at 0.  All points on 
 
 Which of the following are functions?
  1. $\\{(a, 2a) : a \in \mathbb{R}\\}$
- 2. $\\{(\sqrt(y), y) : y \in \mathbb{R}\\}$
+ 2. $\\{(\sqrt y, y) : y \in \mathbb{R}\\}$
  3. $\\{(x, y) : x \in \mathbb{R}$ and $y = 1$ if $x$ is rational, $0$ otherwise $\\}$
  4. $\\{(x,y) : (x,y)$ is a point on a circle of radius $1$ around $(0,0)\\}$
 
