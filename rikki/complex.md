@@ -7,6 +7,9 @@ real numbers and $i$ is the "imaginary unit", $\sqrt{-1}$.
 
 We visualize complex numbers as points in the _complex plane_.  
 
+We use $\mathbb{C}$ to denote the complex numbers.  WE consider the real numbers, \mathbb{R} to be a subset
+of the $\mathbb{C}$, consisting of the complex numbers that have $0$ as their imaginary part.
+
 The complex plane has the real line as its x axis and the imaginary dimension on the y axis.
 The complex number $x +yi$ corresponds to the point $(x,y)$.
 
@@ -49,24 +52,19 @@ Write the definition of complex subtraction that will make this work.
 
 $(a + bi) - (c + di) = $???
 
-To define complex division, we would like to express $\frac{a + bi}(c + di} in the form $x + yi$.  
-To get to that form, we can use a trick to clear the denominator. The trick uses what we call the complex conjugation.
+To define complex division, we would like to express $\frac{a + bi}{c + di}$ in the form $x + yi$.  
+To get to that form, we can use a trick to clear the denominator. The trick uses what we call _complex conjugation_.
 
 For a complex number $z = x + yi$, we define the _conjugate_, $conj(z)$ to be $x - yi$. So conjugation is just flipping the sign on the imaginary part of the number.  Graphically, this amounts to reflecting the point across the $x$ axis in the complex plane. 
 
 Show that for all $z$
-1.  $arg(conj(z)) = -arg(z).$
-2.  $|z| = $|conj(z)|$
-3.  $z \mdot conj(z) = $|z|^2$
+1.  $arg(conj(z)) = -arg(z)$
+2.  $|z| = |conj(z)|$
+3.  $z \cdot conj(z)$ is a real number - i.e. $z \cdot conj(z)$ has $0$ as its imaginary part.
 
-The last thing is what makes the trick work.  We can get rid of the denominator in $\frac{a + bi}(c + di} 
+The last thing is what makes the trick work.  We can get rid of the denominator in $\frac{a + bi}{c + di}$ 
 by multiplying top and bottom by the the conjugate of the denominator, $(c - di)$
 
-Using the trick, write a formula in the form $a + bi$ for $\frac{a + bi}(c + di}.
+Using the trick, write a formula in the form $a + bi$ for $\frac{a + bi}{c + di}$.
 
-
-
-
-
-
-
+An amazing fact about the complex numbers is that they are _algebraically complete_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has a solution ($x = i$).  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation.
