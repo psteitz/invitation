@@ -17,6 +17,8 @@ Which of the following are functions?
 
 Provide an example of a function that maps multiple input values to the same output value.
 
+## Graphs of functions
+
 The *graph* of a function $f:\mathbb{R} \to \mathbb{R}$ is the set of points $(x,f(x))$ for $x \in \mathbb{R}$.
 Provide an example of a function $f$ whose graph can be drawn continuously without picking up your pencil.
 
