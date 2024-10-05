@@ -16,15 +16,15 @@
 
 3. Complex numbers
 
-  3.1 Definition
+   3.1 Definition
 
-  3.2 Arithmetic operations
+   3.2 Arithmetic operations
 
-  3.3 Complex functions
+   3.3 Complex functions
 
-  3.4 Iterated function systems
+   3.4 Iterated function systems
 
-  3.5 Complex sine and cosine functions
+   3.5 Complex sine and cosine functions
    
 5. Derivatives
 
