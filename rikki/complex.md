@@ -73,7 +73,7 @@ Using the trick, write a formula in the form $x + yi$ for $\frac{a + bi}{c + di}
 
 An amazing fact about the complex numbers is that they are _algebraically closed_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has two solutions, $x = \pm i$.  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation. Actually, the statement is even stronger than that:
 
-For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r{n-1}).  The %r_i$ are not necessarily distinct.  For example, 
+For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r_{n-1}).$  The $r_i$ are not necessarily distinct.  For example, consider
 
 $p(z) = z^2 -2z + 1 = (z - i)(z - i)$
 
