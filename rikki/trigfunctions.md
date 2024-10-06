@@ -56,9 +56,9 @@ If h = 1, then these values are obviously the same as the definition in terms of
  1. Make tables for the sin and cos functions for the special values (multiples of $\pi/4$ and $\pi/6$)
  2. Graph sin and cos together in one coordinate plane
  3. Describe the relationship betwen the two curves
- 4. A function $f : \mathbb{R} \to \mathbb{R}$ is *strictly increasing* over the interval $[a,b]$ if for all $x_1$ and $x_2$ in $[a,b]$, if $x_1 < x_2$ then $f(x_1) < f(x_2)$. Find the subintervals within $[0,2\pi]$ over with the sin is strictly increasing.  Then do the same for the cosine.
- 5. Fill in the blank: If the cos is ____ then the sin is increasing.  Explain why this is true.
- 6. Select one: If the rate of change of cos is increasing at $x$ then $cos(x)$ is [ ] positive [ ] negative.  Explain.
+ 4. A function $f : \mathbb{R} \to \mathbb{R}$ is *strictly increasing* over the interval $[a,b]$ if for all $x_1$ and $x_2$ in $[a,b]$, if $x_1 < x_2$ then $f(x_1) < f(x_2)$. Find the subintervals within $[0,2\pi]$ over which the $sin$ function is strictly increasing.  Then do the same for $cos$.
+ 5. Fill in the blank: If the $cos$ is ____ then the $sin$ is increasing.  Explain why this is true.
+ 6. Select one: If the rate of change of $cos$ is increasing at $x$ then $cos(x)$ is [ ] positive [ ] negative.  Explain.
 
 ## Trigonometric identities
 One can create an entire HS class deriving and playing with formulas relating values of the sin and cos functions. Most are rarely used.  The proofs tend to be geometric arguments that are not terribly interesting. Here are two that are used quite a bit. They are called the _angle addition forumulas_ for $sin$ and $cos$.
