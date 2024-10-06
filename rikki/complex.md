@@ -80,3 +80,9 @@ $p(z) = z^2 -2z + 1 = (z - i)(z - i)$
 In that case $r_0 = r_1 = i$.  When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$. This obviously means that all polynomials with real coefficients also split over $\mathbb{C}$.  It can be shown that $\mathbb{C}$ is minimal among extensions of $\mathbb{R}$ with this property, so we say the $\mathbb{C}$ is the _algebraic closure_ of $\mathbb{R}$.
 
 Use the $sin$ and $cos$ angle addition formulas to prove that for all complex numbers $z$ and $w$, $arg(zw) = arg(z) + arg(w)$
+
+## Complex functions
+
+## Iterated function systems
+
+## Complex trigonometric functions
