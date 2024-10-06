@@ -69,12 +69,12 @@ Show that for all $z$
 The last thing is what makes the trick work.  We can get rid of the denominator in $\frac{a + bi}{c + di}$ 
 by multiplying top and bottom by the the conjugate of the denominator, $(c - di)$
 
-Using the trick, write a formula in the form $a + bi$ for $\frac{a + bi}{c + di}$.
+Using the trick, write a formula in the form $x + yi$ for $\frac{a + bi}{c + di}$.
 
-An amazing fact about the complex numbers is that they are _algebraically closed_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has a solution ($x = i$).  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation. Actually, the statement is even stronger than that:
+An amazing fact about the complex numbers is that they are _algebraically closed_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has two solutions, $x = \pm i$.  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation. Actually, the statement is even stronger than that:
 
 For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r{n-1}).  The %r_i$ are not necessarily distinct.  For example, 
 
 $p(z) = z^2 -2z + 1 = (z - i)(z - i)$
 
-In that case $r_0 = r_1 = i$.  When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$.
+In that case $r_0 = r_1 = i$.  When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$. This obviously means that all polynomials with real coefficients also split over $\mathbb{C}$.  It can be shown that $\mathbb{C}$ is minimal among extensions of $\mathbb{R}$ with this property, so we say the $\mathbb{C}$ is the _algebraic closure_ of $\mathbb{R}$.
