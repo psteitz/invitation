@@ -7,7 +7,7 @@ real numbers and $i$ is the "imaginary unit", $\sqrt{-1}$.
 
 We visualize complex numbers as points in the _complex plane_.  
 
-We use $\mathbb{C}$ to denote the complex numbers.  WE consider the real numbers, \mathbb{R} to be a subset
+We use $\mathbb{C}$ to denote the complex numbers.  We consider the real numbers, $\mathbb{R}$ to be a subset
 of the $\mathbb{C}$, consisting of the complex numbers that have $0$ as their imaginary part.
 
 The complex plane has the real line as its x axis and the imaginary dimension on the y axis.
@@ -35,14 +35,14 @@ To add two complex numbers, we add their real and imaginary parts:
 
 $(a + bi) + (c + di) = (a + c) + (b + d) i$
 
-Multiplication uses the distributed law:
+Multiplication uses the distributive law:
 
 $(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$ 
 
-($bdi^2 = -bd$ because $i^2 = -1$.)
+$bdi^2 = -bd$ because $i^2 = -1$
 
 For any complex number $z = x + yi$, $-z = -x - yi$ is the _additive inverse_ of $z$. Note that for all $z$, $z + -z = 0 + 0i$
-We refer to $0 + 0i$ as zero.  Complex zero is also the _additive identity_ among complex numbers - i.e., $z + (0 + 0i) = z$ for all $z$.
+We refer to $0 + 0i$ as complex zero.  Complex zero is also the _additive identity_ among complex numbers - i.e., $z + (0 + 0i) = z$ for all $z$.
 
 Subtraction and divison are defined the same way we do with real numbers,
 
@@ -67,4 +67,10 @@ by multiplying top and bottom by the the conjugate of the denominator, $(c - di)
 
 Using the trick, write a formula in the form $a + bi$ for $\frac{a + bi}{c + di}$.
 
-An amazing fact about the complex numbers is that they are _algebraically complete_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has a solution ($x = i$).  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation.
+An amazing fact about the complex numbers is that they are _algebraically closed_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has a solution ($x = i$).  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation. Actually, the statement is even stronger than that:
+
+For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r{n-1}).  The %r_i$ are not necessarily distinct.  For example, 
+
+$p(z) = z^2 -2z + 1 = (z - i)(z - i)$
+
+In that case $r_0 = r_1 = i$.  When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$.
