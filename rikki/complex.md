@@ -39,6 +39,10 @@ Multiplication uses the distributive law:
 
 $(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$ 
 
+Show that when two complex numbers are multiplied, the argument of the product is the sum of the arguments - i.e.
+
+$arg(z_1 z_2) = arg(z_1) + arg(z_2)$
+
 $bdi^2 = -bd$ because $i^2 = -1$
 
 For any complex number $z = x + yi$, $-z = -x - yi$ is the _additive inverse_ of $z$. Note that for all $z$, $z + -z = 0 + 0i$
