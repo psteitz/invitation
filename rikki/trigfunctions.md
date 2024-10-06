@@ -14,7 +14,7 @@ $(x_1, y_1)$ and $(x_2,y_2)$
 The (Euclidean, metric) *norm* of a point $(x, y)$ in the plane (what we call $\mathbb{R}^2$) is its distance from the origin.
 Use the Pythgoran theorem to write an expression for the norm of $(x,y)$.
 
-## Definition of sine and cosine
+## Definition of sin and cos
 The *unit circle* is the circle of radius $1$ centered at the origin in $\mathbb{R}^2$.  
 ![image](https://www.mathsisfun.com/geometry/images/unit-circle.svg)
 
