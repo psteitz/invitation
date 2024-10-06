@@ -26,7 +26,7 @@
 
    3.4 Iterated function systems
 
-   3.5 Complex sine and cosine functions
+   3.5 Complex sin and cos functions
    
 5. Derivatives
 
