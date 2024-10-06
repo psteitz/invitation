@@ -14,7 +14,9 @@
 
    2.2 Graphs of trigonometric functions
 
-3. Complex numbers
+   2.3 Trigonometric identities
+
+4. Complex numbers
 
    3.1 Definition
 
