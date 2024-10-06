@@ -5,13 +5,13 @@ A complex number is a number with two parts: a _real_ part and an _imaginary_ pa
 We often write complex numbers $z$ in the form $z = a + bi$ where $a$ and $b$ are
 real numbers and $i$ is the "imaginary unit", $\sqrt{-1}$.
 
-We visualize complex numbers as points in the _complex plane_.  
-
 We use $\mathbb{C}$ to denote the complex numbers.  We consider the real numbers, $\mathbb{R}$ to be a subset
 of the $\mathbb{C}$, consisting of the complex numbers that have $0$ as their imaginary part.
 
+We visualize complex numbers as points in the _complex plane_.  
+
 The complex plane has the real line as its x axis and the imaginary dimension on the y axis.
-The complex number $x +yi$ corresponds to the point $(x,y)$.
+The complex number $x + yi$ corresponds to the point $(x,y)$.
 
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2hPuW3bnRkQZHxXRjO6GduQQIJSS-u2LWw&s)
 
@@ -39,11 +39,11 @@ Multiplication uses the distributive law:
 
 $(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$ 
 
+$bdi^2 = -bd$ because $i^2 = -1$
+
 Show that when two complex numbers are multiplied, the argument of the product is the sum of the arguments - i.e.
 
 $arg(z_1 z_2) = arg(z_1) + arg(z_2)$
-
-$bdi^2 = -bd$ because $i^2 = -1$
 
 For any complex number $z = x + yi$, $-z = -x - yi$ is the _additive inverse_ of $z$. Note that for all $z$, $z + -z = 0 + 0i$
 We refer to $0 + 0i$ as complex zero.  Complex zero is also the _additive identity_ among complex numbers - i.e., $z + (0 + 0i) = z$ for all $z$.
@@ -73,13 +73,17 @@ Using the trick, write a formula in the form $x + yi$ for $\frac{a + bi}{c + di}
 
 An amazing fact about the complex numbers is that they are _algebraically closed_.  That means that any polynomial equation that you can write with complex coefficients can be solved.  For example, $x^2 = -1$ has two solutions, $x = \pm i$.  What is amazing is that by just adding the solution to that equation and defining arithmetic operations as above, we end up being able to solve *any* polynomial equation. Actually, the statement is even stronger than that:
 
-For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r_{n-1}).$  The $r_i$ are not necessarily distinct.  For example, consider
+For every complex polynomial $p(z) = a_nz^n + a_n{-1}z^{n-1} + ... + a_0$ where $a_0, ..., a_n$ are complex coefficients, there are complex roots $r_0, ..., r_{n-1}$ such that $p(z) = (z - r_0)(z - r_1)...(z - r_{n-1})$. Every polynomial can be fully factored.  The $r_i$ are not necessarily distinct.  For example, consider
 
 $p(z) = z^2 -2z + 1 = (z - i)(z - i)$
 
-In that case $r_0 = r_1 = i$.  When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$. This obviously means that all polynomials with real coefficients also split over $\mathbb{C}$.  It can be shown that $\mathbb{C}$ is minimal among extensions of $\mathbb{R}$ with this property, so we say the $\mathbb{C}$ is the _algebraic closure_ of $\mathbb{R}$.
+In that case $r_0 = r_1 = i$.
+
+When a polynomial can be factored like that into a product of $(z - r)$ terms, where the $r$'s come from a set $A$ of some kind, we say that the polynomial _splits over A_.  So the amazing fact is that every polynomial with complex coefficients splits over $\mathbb{C}$. This obviously means that all polynomials with real coefficients also split over $\mathbb{C}$.  It can be shown that $\mathbb{C}$ is minimal among extensions of $\mathbb{R}$ with this property, so we say the $\mathbb{C}$ is the _algebraic closure_ of $\mathbb{R}$.
 
 Use the $sin$ and $cos$ angle addition formulas to prove that for all complex numbers $z$ and $w$, $arg(zw) = arg(z) + arg(w)$
+
+What is the relation between $|zw|$ , $|z|$ and $|w|$? Prove it.
 
 ## Complex functions
 
