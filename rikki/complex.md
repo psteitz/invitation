@@ -86,6 +86,9 @@ Use the $sin$ and $cos$ angle addition formulas to prove that for all complex nu
 What is the relation between $|zw|$ , $|z|$ and $|w|$? Prove it.
 
 ## Complex functions
+Complex functions are just functions with domain $\mathbb{C}$ and range a subset of $\mathbb{C}$.  When the range is contained in the real numbers, we call them _real-valued_ complex functions.  The function $f(z) = |z|$ is an example of a real-valued complex function.  We write $f: \mathbb{C} \to \mathbb{C}$ to indicate that $f$ is a complex function.
+
+Graphing complex functions is not really possible.  To draw a graph that gives the full picture would require four dimensions, which we can't do. What can be informative is to graph just the real or imaginary parts of the function in on a 3D plot where the domain is shown as the base and the graph of the real or imaginary part is a surface. There are other ways to use colors and other means to illustrate the behavior of complex functions that we will revisit later.
 
 ## Iterated function systems
 
