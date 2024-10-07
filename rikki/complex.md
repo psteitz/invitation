@@ -48,7 +48,7 @@ $arg(z_1 z_2) = arg(z_1) + arg(z_2)$
 For any complex number $z = x + yi$, $-z = -x - yi$ is the _additive inverse_ of $z$. Note that for all $z$, $z + -z = 0 + 0i$
 We refer to $0 + 0i$ as complex zero.  Complex zero is also the _additive identity_ among complex numbers - i.e., $z + (0 + 0i) = z$ for all $z$.
 
-Subtraction and divison are defined the same way we do with real numbers,
+Subtraction and divison are defined the same way we do with real numbers, by making them the inverses of addition and multiplication, respectively.
 
 $z - w$ is the complex number that you have to add to $w$ to get $z$ so $w + (z - w ) = z$
 
@@ -84,6 +84,14 @@ When a polynomial can be factored like that into a product of $(z - r)$ terms, w
 Use the $sin$ and $cos$ angle addition formulas to prove that for all complex numbers $z$ and $w$, $arg(zw) = arg(z) + arg(w)$
 
 What is the relation between $|zw|$ , $|z|$ and $|w|$? Prove it.
+
+The amazing fact above about algebraic closure means that for every $n>0$, the complex polynomial $p(z) = z^n - 1$ can be factored completely like so:
+
+$z^n - 1 = (z - r_0)(z - r_1)...(z - r_{n-1})$
+
+The $r_i$ are called the _complex nth roots of unity_ because they satisfy $r^n = 1$.
+
+Find the 4th roots of unity.
 
 ## Complex functions
 Complex functions are just functions with domain $\mathbb{C}$ and range a subset of $\mathbb{C}$.  When the range is contained in the real numbers, we call them _real-valued_ complex functions.  The function $f(z) = |z|$ is an example of a real-valued complex function.  We write $f: \mathbb{C} \to \mathbb{C}$ to indicate that $f$ is a complex function.
