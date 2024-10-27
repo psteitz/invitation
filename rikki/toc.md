@@ -1,4 +1,16 @@
-1. Functions
+0. Real numbers
+   
+   0.1 Natural numbers
+   
+   0.2 Integers
+   
+   0.3 Rational numbers
+   
+   0.4 Real numbers
+
+   0.5 Rings and Fields
+
+2. Functions
 
    1.1 Function definition
 
@@ -8,7 +20,7 @@
 
    1.4 Properties of functions
 
-2. Trigonometric functions
+3. Trigonometric functions
 
    2.1 Unit circle definitions
 
