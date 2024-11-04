@@ -96,7 +96,7 @@ Write a fraction in lowest terms that is equal to each of the following
  3. $\frac{3}{8} \cdot \frac{1}{6}$
  4. $\frac{3}{7} \cdot \frac{1}{\frac{1}{6}}$
  5. $\frac{3}{7} \cdot 21$
- 7. $(\frac{1}{5} + \frac{1}{3})(\frac{1}{5} - \frac{1}{3})  do this both directly by adding the insides first and using the distributive law
+ 7. $(\frac{1}{5} + \frac{1}{3})(\frac{1}{5} - \frac{1}{3})$  do this both directly by adding the insides first and using the distributive law
  8. $\frac{\frac{2}{5}}{4}$
 
 Can you think of a better way to find the least common multiple of two integers without looking at a lot of numbers?
