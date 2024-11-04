@@ -45,9 +45,9 @@ So $\mathbb{Q}$ is the set of all fractions that can be formed from integers. In
 ### Multiplication and division
 To multiply fractions, we multiply numerators and denominators:
 
-$m/n \cdot k/l = mk/nl$
+$\frac{m}{n} \cdot \frac{k}{l} = \frac{mk}{nl}$
 
-Every rational number other than 0 has a multiplicative inverse.  If $r = m/n$ for integers $m$ and $n$, then $r^{-1} = n/m$ because $n/m \cdot m/n = nm/mn = 1.$ 
+Every rational number other than 0 has a multiplicative inverse.  If $r = m/n$ for integers $m$ and $n$, then $r^{-1} = n/m$ because $\frac{n}{m} \cdot \frac{m}{n}  = \frac{nm}{mn} = 1.$ 
 
 We call $m/n$ the _reciprocal_ of $n/m$.  
 
