@@ -32,11 +32,14 @@ It is clear from the graph that this function never takes a negative value.  Why
 
 
 ## Function properties
-A function is *injective* if different $x$ values map to different $y$ values.
+### Mapping properties
+A function is *injective* if different $x$ values map to different $y$ values.  Injective functions are sometimes called "one-to-one."  Bijective functions can be *inverted*.  Since for each value $y$ in the range of an injective function there is a unique value $x$ in the domain of the function such that $f(x) = y$, we can define the inverse function to be the function that maps $y$ back to $x$.  We sometimes write $f^{-1}$ for the inverse of $f$.  For example, if $f(x) = 2x$, then $f^{-1}(x) = \frac{1}{2}x$.  Intuitively, the inverse of an injective function reverses what the function does.
 
-A function is *surjective* if every element of the range appears among the values of the function.
+Why can't we define inverses for functions that are not one-to-one?  Illustrate your answer with an example.
 
-A function that is both injective and surjective is called a *bijection*.  Bijective functions can be inverted. 
+A function is *surjective* if every element of the range appears among the values of the function. Surjective functions are sometimes called "onto."
+
+A function that is both injective and surjective is called a *bijection*.  Bijective functions are "one-to-one and onto." 
 
 Provide examples of 
  * a function that is injective, but not surjective
@@ -48,6 +51,23 @@ A set is *countable* if there is an injective function from the set into the nat
 Prove that if a set $A$ is countable then it can be listed out as $a_0, a_1, ... , a_{n-1}, a_n ...$
 
 Prove that if $A$ and $B$ are infinite countable sets then there is a bijection between $A$ and $B$
+
+### Properties of functions from $\mathbb{R}$ to $\mathbb{R}$
+
+In this section, all functions are assumed to be real-valued functions of a real variable.
+
+A *constant* function is a function that takes just one value.  The graph of a constant function is a horizontal line.  For example, $f(x) = 1$ is constant function whose graph is a horizontal line one unit above the $x$ axis.
+
+An *(strictly) increasing* function is function whose graph always looks "upward to the right."  Formally, a function is stricly increasing if $x_1 < x_2$ means that $f(x_1) < f(x_2)$.  The "strict" part is what makes the inequality among the $f(x)$ values strict.  If the function can be flat for some intervals, so that  $f(x_1) \le f(x_2)$ everywhere, but $f(x_1) = f(x_2)$ for some $x_1 < x_2$, we say that the function is *non-decreasing.*  Similar definitions hold for strict decreasing and non-increasing.
+
+The increasing / decreasing definitions can be applied to intervals.  For example, the function $f(x) = x^2$ is strictly decreasing over the interval $(-\infty, 0)$ and strictly increasing over $(0,\infty)$.
+
+Draw the graphs of the following functions and find the intervals over which they are increasing or decreasing.
+
+ 1. $f(x) = 2x$
+ 2. $f(x) = \left|x\right|$
+ 3. $f(x) = (x+1)(x-1)x$
+
 
 
 
