@@ -7,32 +7,30 @@
    0.3 Rational numbers
    
    0.4 Real numbers
-
-   0.5 Rings and Fields
    
 1. Complex numbers
 
-   3.1 Definition
+   1.1 Definition
 
-   3.2 Arithmetic operations
+   1.2 Arithmetic operations
 
 2. Functions
 
-   1.1 Function definition
+   2.1 Function definition
 
-   1.2 Function examples and non-examples
+   2.2 Function examples and non-examples
 
-   1.3 Graphs of functions
+   2.3 Graphs of functions
 
-   1.4 Properties of functions
+   2.4 Properties of functions
 
 3. Trigonometric functions
 
-   2.1 Unit circle definitions
+   3.1 Unit circle definitions
 
-   2.2 Graphs of trigonometric functions
+   3.2 Graphs of trigonometric functions
 
-   2.3 Trigonometric identities
+   3.3 Trigonometric identities
 
 4. Polynomial functions
    
@@ -47,9 +45,19 @@
 
 5.  Complex functions
 
-   4.1 Iterated function systems
+   5.0 Complex function definition
+   
+   5.1 Iterated function systems
 
-   4.2 Complex sin and cos functions
+   5.2 Complex sin and cos functions
+
+   5.3 Complex exponential function
+   
+6. Abstract algebra
+
+   6.1 Rings
+   
+   6.2 Fields
    
 6. Derivatives
 
