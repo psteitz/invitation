@@ -9,6 +9,12 @@
    0.4 Real numbers
 
    0.5 Rings and Fields
+   
+1. Complex numbers
+
+   3.1 Definition
+
+   3.2 Arithmetic operations
 
 2. Functions
 
@@ -28,19 +34,24 @@
 
    2.3 Trigonometric identities
 
-4. Complex numbers
-
-   3.1 Definition
-
-   3.2 Arithmetic operations
-
-   3.3 Complex functions
-
-   3.4 Iterated function systems
-
-   3.5 Complex sin and cos functions
+4. Polynomial functions
    
-5. Derivatives
+   4.0 Polynomial definition
+   
+   4.1 Adding and multiplying polynomials
+   
+   4.2 Factoring polynomials
+   
+   4.4 Roots of polynomials
+
+
+5.  Complex functions
+
+   4.1 Iterated function systems
+
+   4.2 Complex sin and cos functions
+   
+6. Derivatives
 
    5.1 Rates of change
 
