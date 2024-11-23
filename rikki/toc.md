@@ -43,7 +43,7 @@
    4.4 Roots of polynomials
 
 
-5.  Complex functions
+5. Complex functions
 
    5.0 Complex function definition
    
