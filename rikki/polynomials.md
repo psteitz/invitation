@@ -10,12 +10,12 @@ where $\\{a_0, ... , a_{n-1}\\} \subset \mathbb{R}$.  The number $n$ is the _deg
 
 We give special names to lower-degree polynomials.
 
-| Degree    | Name | Example |
-| -------- | ------- | ------- |
-| 0   | constant | $p(x) = 0$ |
-| 1 | linear | $p(x) = 2x - 3$ |
-| 2 | quadratic | $p(x) = 4x^2 + x - 7$ |
-| 3 | cubic | $p(x) = \pi x^3 - 1$|
+| Degree    | Name | Example | Notes |
+| -------- | ------- | ------- | ----- |
+| 0   | constant | $p(x) = 0$ | Here $a_0 = 0$. Among polynomials, this polynomial is the additive identity (see below).|
+| 1 | linear | $p(x) = 2x - 3$ | Here $a_1 = 2$ and $a_0 = -3$ |
+| 2 | quadratic | $p(x) = 4x^2 + x - 7$ | $a_2 = 4, a_1 = 1, a_0 = -7$|
+| 3 | cubic | $p(x) = \pi x^3 - 1$| This one has some "missing terms" which means their coefficents are $0$:  $a_3 = \pi, a_2 = 0, a_1 = 0, a_0 = 1$. All of the other examples are _rational_ polynomials, since all of their coefficients are from $\mathbb{Q}$, but this one has an irrational coefficient, $\pi$.|
 
 ## Adding and multiplying polynomials
 
