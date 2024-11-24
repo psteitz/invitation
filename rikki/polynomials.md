@@ -15,7 +15,7 @@ We give special names to lower-degree polynomials.
 | 0   | constant | $p(x) = 0$ |
 | 1 | linear | $p(x) = 2x - 3$ |
 | 2 | quadratic | $p(x) = 4x^2 + x - 7$ |
-| 3 | cubic | $p(x) = x^3 - 1$|
+| 3 | cubic | $p(x) = \pi x^3 - 1$|
 
 ## Adding and multiplying polynomials
 
