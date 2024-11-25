@@ -28,7 +28,7 @@ $p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_0$ and
 
 $q(x) = b_mx^m + b_{m-1}x^{m-1} + ... + b_0$
 
-Let D be the maximum of the degrees of $p$ and $q$ and let let d be the minimum. 
+Let D be the maximum of $m$ and $n$ and let let d be the minimum. 
 
 If the polynomials have the same degree, these are equal and the second term in the sum below drops out.
 
@@ -84,6 +84,12 @@ $q(x) = x^{2}+x+1$
 $p(x)q(x) = $
 
 ---
+
+Let $p(x)= (x - 1)(x + 1)(x-4)$
+
+What can you say about the graph of $p$?
+
+Write $p$ in standard form.
 
 ## Factoring polynomials
 
