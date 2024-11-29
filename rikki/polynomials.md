@@ -69,9 +69,7 @@ So if for example if $S_1 = 1 + 2 + 4$ and $S_2 = 5 + 7 + 9$ then
 $S_1 S_2 = 1 \cdot 5 + 1 \cdot 7 + 1 \cdot 9 + 2 \cdot 5 + 2 \cdot 7 + 2 \cdot 9 + 4 \cdot 5 + 4 \cdot 7 + 4 \cdot 9$
 
 When multiplying polynomials we have to collect up all of the terms created by applying the distributive law.  For example
-
-$p(x) = x - 1$
-$q(x) = x + 1$
+if $p(x) = x - 1$ and  $q(x) = x + 1$ then
 
 $p(x)q(x) = (x - 1) (x + 1) = x^2 + x + -1x + -1 \cdot 1 = x^2 - 1$
 
