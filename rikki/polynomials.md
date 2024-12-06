@@ -91,7 +91,7 @@ Write $p$ in standard form.
 
 ## Factoring polynomials
 
+
 ## Roots of polynomials
 
-## Real polynomials are a ring, but not a field
 
