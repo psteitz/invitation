@@ -6,7 +6,7 @@ and the $x$ values are assumed to be in another set.  Polynomials over the real 
 class of real-valued functions of a real variable.
 
 A _real polynomial_ $p$ of a real variable $x$ is a function of the form $p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_0$
-where $\\{a_0, ... , a_{n-1}\\} \subset \mathbb{R}$.  The number $n$ is the _degree_ of the polynomial.
+where $\\{a_0, ... , a_n\\} \subset \mathbb{R}$.  The number $n$ is the _degree_ of the polynomial.
 
 We give special names to lower-degree polynomials.
 
