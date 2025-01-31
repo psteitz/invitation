@@ -6,7 +6,7 @@ And you have to agree to the [Code of Conduct]()
 
 ## Pace
 Adult swim math is not a race. 
-In fact, slower is generally better. In a lot of ways, being able to move fast with new concepts requires that you slow way down to make sure that you understand the concepts.
+In fact, slower is generally better. Being able to move fast with new concepts requires that you slow way down to make sure that you understand the concepts.
 
 ## Goals
 
@@ -20,7 +20,7 @@ In fact, slower is generally better. In a lot of ways, being able to move fast w
 ## Approaches
 Mathematics is a vast subject so there are many, many ways into it. Here are some common paths into interesting and powerful mathematics.
 
- * [Calculus]()
+ * [Calculus](https://github.com/psteitz/invitation/tree/main/calculus)
  * Combinatorics
  * Algebra
  * Number theory
