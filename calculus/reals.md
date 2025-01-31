@@ -20,6 +20,29 @@ Similarly, the _multiplicative inverse_ of $n$ is the number $n^{-1}$ such that 
 
 The only number in $\mathbb{N}$ that has an additive inverse is $0$ and the only number with a multiplicative inverse is $1$. 
 
+### Prime numbers
+
+We say that a natural number $n$ *divides* another natural number $m$ when $m$ can be written as a product of $n$ and another natural number.  So for example, $3$ divides $12$ since $12 = 3 \cdot\ 4$. When $m$ divides $n$ we say that $m$ is a *factor* of $m$. Numbers that have no factors other than $1$ and themselves are called *prime numbers*.  The first few prime numbers are $2, 3, 5, 7, 11, 13.$ Here are some important facts about prime numbers that we won't prove in this swim.  See the [number theory]() swim for a deep dive into the wonders of prime numbers.
+
+ 1. There are infinitely many prime numbers.  There is no largest prime number.
+ 2. The distance between consecutive primes gets larger and larger as you go out farther in the sequence.
+ 3. (Fundamental Theorem of Arithmentic)  Any natural number $n$ can be written in exactly one way as a product of prime numbers.
+
+The factorization in 3. is called the *prime factorization* of the number.  Here are some examples
+
+   $4 = 2^2 $
+
+   $24 = 2^3 3$
+
+   $72 = 2^3 3^2$
+
+   $225 = 3^2 5^2$
+
+  Write the prime factorization of each of the following numbers:
+
+  $186, 36, 108, 1000, 550, 1000000$
+  
+
 ## Integers
 The _Integers_ are what we get when we add additive inverses for all of the natural numbers.  We use $\mathbb{Z}$ to represent the integers.  So  $\mathbb{Z} = ... -2, -1, 0, 1, 2, ... $
 
@@ -107,7 +130,19 @@ The rational numbers seem like they should be all the numbers that we need. They
 
 While the real numbers are indeed a much bigger set than the rationals, the rationals are _dense_ in the reals. You can't go anywhere on the real line without bumping into a rational.  They own a house in every neighborhood.
 
-More precisely, for any real number $r$ and any positive number $\epsilon$, the interval of width $\epsilon$ around $r$ contains a rational (actually infinitely many rationals).
+More precisely, for any real number $r$ and any positive number $\epsilon$, the interval of width $\epsilon$ around $r$ contains a rational (actually infinitely many rationals). It's not hard to see this when you observe that decimal representations with any number of digits to the right of the decimal place are all rational numbers.  The number 3.14159 is the same as 314159/10000.  So if you consider any real number $r$, you can start with the closest integer to it, then look at tenths, hundredths, etc and you can get arbitrarily close to it with a rational number.
+
+Here is a modified version of Euclid's proof that $\sqrt{2}$ can't be rational.  It is a proof by contradiction. In this manner of proof, one starts by assumming the negation of the statement to be proved and then derives a contradiction, thus proving that the statement to be proved must be true.
+
+Suppose, then, that $\sqrt{2}$ is rational. Then we must be able to write $\sqrt{2} = m/n$  where $m$ and $n$ are integers.  Any fraction can be written in lowest terms, so assume without loss of generality that $m$ and $n$ have no common factors (otherwise those could be cancelled to reduce the fraction to lowest terms).  Given that  $\sqrt{2} = m/n$ it follows that  $\sqrt{2} \cdot \sqrt{2} = (m/n) \cdot (m/n$). Here we are using a standard technique called "squaring both sides" of an equation.  Writing it out fully it is clear why it is OK to do. If the two sides are equal, when you square them, you are multiplying each side by the same thing. Multiplying this out gives
+
+$2 = m^2/n^2$
+
+Multiplying both sides above by $n^2$, we get $2n^2 = m^2$.  So $m \cdot m$ is even.  That means $m$ must be even, since the square of an odd numbers is always odd. (Odd numbers always take the form $2k + 1$ for some $k$. That means the square of an odd number is something of the form $(2k + 1)(2k +1) = 4k^2 + 4k + 1 = 2(k^2 + 2) + 1$,  which is of the form $2k + 1$ with $k^2 + 2$ playing the role of $k$.)
+
+Now consider the prime factorizations of $m$ and $n$.  Since $m$ is even, its prime factorization must include a $2$.  If $n$ is also even, then $m$ and $n$ share a common factor, contradicting our assumption that the fraction is in lowest terms.  So $n$ must be odd which means its prime factorization can't include any power of $2$.  But since $m$ is even, the power of $2$ in the prime factorization of $m^2$ has to be at least $2$.  But if $n$ does not contain any $2's$ in its expansion, the quotient $m^2/n^2$ has to have $2^2$ in its expansion.  But the quotient is only $2$, which is a contradiction.
+
+
 
 
 
