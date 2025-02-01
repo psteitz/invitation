@@ -46,12 +46,6 @@ Provide examples of
  * a function that is surjective, but not injective
  * a bijection
 
-A set is *countable* if there is an injective function from the set into the natural numbers.
-
-Prove that if a set $A$ is countable then it can be listed out as $a_0, a_1, ... , a_{n-1}, a_n ...$
-
-Prove that if $A$ and $B$ are infinite countable sets then there is a bijection between $A$ and $B$
-
 ### Properties of functions from $\mathbb{R}$ to $\mathbb{R}$
 
 In this section, all functions are assumed to be real-valued functions of a real variable.
