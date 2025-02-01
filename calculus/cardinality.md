@@ -14,7 +14,14 @@ Show that the cardinality of the natural numbers is no larger than the cardinali
 
 Show that the cardinality of the integers is no larger than the cardinality of the natural numbers
 
-Show that the cardinality of the rational numbers is no larger than the cardinality of the natural numbers
+A set is *countable* if there is an injective function from the set into the natural numbers. In other words, $A$ is countable if $|A| \le \vert\mathbb{N}\rvert$.
+
+Prove that if a set $A$ is countable then it can be listed out as $a_0, a_1, ... , a_{n-1}, a_n ...$
+
+Prove that if $A$ and $B$ are infinite countable sets then there is a bijection between $A$ and $B$.
+
+
+Show that the cardinality of the rational numbers is no larger than the cardinality of the natural numbers.
 
 ## Equal cardinalities
 Two sets $A$ and $B$ have the same cardinality if there is a bijection $f:A \to B$.  In that case, we write $\lvert{A}\rvert = \lvert{B}\rvert$
@@ -40,6 +47,10 @@ We use $2^{|A|}$ to denote the cardinality of the power set of an infinite set $
 
 The [_Continuum Hypothesis_](https://en.wikipedia.org/wiki/Continuum_hypothesis) states that there is no infinite cardinality between
 that of the natural numbers and that of the real numbers.
+
+Show that the power set of a set has to be strictly bigger than the set - i.e., show that for every set $A$, it is not possible to have an injective function from 
+the set of subsets of $A$ into $A$. 
+
 
 
 
