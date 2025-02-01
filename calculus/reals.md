@@ -41,7 +41,8 @@ The factorization in 3. is called the *prime factorization* of the number.  Here
   Write the prime factorization of each of the following numbers:
 
   $186, 36, 108, 1000, 550, 1000000$
-  
+
+  Find the smallest number that is a multiple of both $2^2 \cdot 5^2 \cdot 7^3 \cdot 11^3$ and $2^3 \cdot 7^2 \cdot 11^2 \cdot 13$.
 
 ## Integers
 The _Integers_ are what we get when we add additive inverses for all of the natural numbers.  We use $\mathbb{Z}$ to represent the integers.  So  $\mathbb{Z} = ... -2, -1, 0, 1, 2, ... $
