@@ -25,3 +25,21 @@ $\lvert{A}\rvert \le \lvert{B}\rvert$ and $\lvert{B}\rvert \le \lvert{A}\rvert$ 
 
 ## Countable and uncountable sets
 
+A set $A$ is _countable_ if $\lvert{A}\rvert \le \lvert\mathbb{N}\rvert$
+
+The exercises above show that the integers and rational numbers are both countable sets.  It turns out that _the real numbers are uncountable_.
+
+If $A$ is a set, then the _power set_ of $A$ is the set of all subsets of $A$.  For example, if $A = \\{0, 1, 2 \\}$ then the power set of $A$ is
+$\\{\emptyset, \\{0,1,2\\}, \\{0,1\\}, \\{1,2\\}, \\{0,2\\}, \\{0\\}, \\{1\\}, \\{2\\}\\}$
+
+Show that for every finite set $A$, the cardinality of the power set of $A$ is $2^{|A|}$.
+
+Every real number has a unique binary expansion. Use this fact to show that the set of real numbers has the same cardinality as the power set of the natural numbers.
+
+We use $2^{|A|}$ to denote the cardinality of the power set of an infinite set $A$.  The last exercise shows that $|\mathbb{R}| = 2^{|\mathbb{N}|}$.
+
+The [_Continuum Hypothesis_](https://en.wikipedia.org/wiki/Continuum_hypothesis) states that there is no infinite cardinality between
+that of the natural numbers and that of the real numbers.
+
+
+
