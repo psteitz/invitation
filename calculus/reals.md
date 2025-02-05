@@ -157,7 +157,7 @@ For each $n \geq 1$, we use $\mathbb{R}^n$, pronounced "R n" to denote the set o
 
 For dimensions $2$ and $3$ we can visualize real vectors.  We visualize 2-dimensional vectors using the _Cartesian Coordinate Plane_
 
-<img src=(https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png) width=400>
+![image](https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png)
 
 The picture shows the real vector $(-3, 2)$ in $\mathbb{R}^2$ represented by the point with $x$ coordinate $-3$ and $y$ coordinate $2$.
 
