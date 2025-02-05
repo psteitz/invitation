@@ -155,9 +155,9 @@ $(0,0,0,0,0)$ is a 5-dimensional real vector.
 
 For each $n \geq 1$, we use $\mathbb{R}^n$, pronounced "R n" to denote the set of all real vectors of dimension $n$.
 
-For dimensions $2$ and $3$ we can visualize real vectors.  We visualize 2-dimensional vectors using the
+For dimensions $2$ and $3$ we can visualize real vectors.  We visualize 2-dimensional vectors using the _Cartesian Coordinate Plane_
 
-![Cartesian Coordinate Plane] (https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png).
+<img src=(https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png) width=400>
 
 The picture shows the real vector $(-3, 2)$ in $\mathbb{R}^2$ represented by the point with $x$ coordinate $-3$ and $y$ coordinate $2$.
 
