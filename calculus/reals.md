@@ -143,7 +143,23 @@ Multiplying both sides above by $n^2$, we get $2n^2 = m^2$.  So $m \cdot m$ is e
 
 Now consider the prime factorizations of $m$ and $n$.  Since $m$ is even, its prime factorization must include a $2$.  If $n$ is also even, then $m$ and $n$ share a common factor, contradicting our assumption that the fraction is in lowest terms.  So $n$ must be odd which means its prime factorization can't include any power of $2$.  But since $m$ is even, the power of $2$ in the prime factorization of $m^2$ has to be at least $2$.  But if $n$ does not contain any $2's$ in its expansion, the quotient $m^2/n^2$ has to have $2^2$ in its expansion.  But the quotient is only $2$, which is a contradiction.
 
+## Real vectors
 
+A _real vector_ is an finite ordered list of real numbers.  The number of elements in the list is the _dimension_ of the vector. The individual elements in the list are called the _components_ of the vector.  We represent vectors by listing their components inside parentheses.  For example,
+
+$(0,1)$ is a 2-dimensional real vector with first component $0$ and second component $1$
+
+$(-7, \sqrt{3}, \pi)$ is a 3-dimensional real vector
+
+$(0,0,0,0,0)$ is a 5-dimensional real vector.
+
+For each $n \geq 1$, we use $\mathbb{R}^n$, pronounced "R n" to denote the set of all real vectors of dimension $n$.
+
+For dimensions $2$ and $3$ we can visualize real vectors.  We visualize 2-dimensional vectors using the
+
+![Cartesian Coordinate Plane] (https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png).
+
+The picture shows the real vector $(-3, 2)$ in $\mathbb{R}^2$ represented by the point with $x$ coordinate $-3$ and $y$ coordinate $2$.
 
 
 
