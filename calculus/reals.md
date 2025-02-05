@@ -110,7 +110,7 @@ then we can look at $\frac {ab}{cb}$ as the product of two fractions: $\frac{a}{
 
 $\frac{m}{n} = \frac {ab}{cb} = \frac{a}{c} \cdot \frac{b}{b} = \frac{a}{c}$.  
 
-If $b > 1$, $c$ will be a smaller number than $b$.  When the numberator and denominator of a fraction have no common factors, the fraction is said to be _in lowest terms_.
+If $b > 1$, $c$ will be a smaller number than $cb$.  When the numberator and denominator of a fraction have no common factors, the fraction is said to be _in lowest terms_.
 
 ### Fun with rationals
 Write a fraction in lowest terms that is equal to each of the following
