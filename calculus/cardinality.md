@@ -30,6 +30,8 @@ less than or equal to the cardinality of $A$, then $A$ and $B$ have the same car
 
 $\lvert{A}\rvert \le \lvert{B}\rvert$ and $\lvert{B}\rvert \le \lvert{A}\rvert$ implies $\lvert{A}\rvert = \lvert{B}\rvert$ 
 
+## Diagonalization
+
 ## Countable and uncountable sets
 
 A set $A$ is _countable_ if $\lvert{A}\rvert \le \lvert\mathbb{N}\rvert$

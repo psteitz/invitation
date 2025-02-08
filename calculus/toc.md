@@ -1,78 +1,93 @@
+0. Sets
+
+   0.1 Set
+
+   0.2 Subset
+
+   0.3 Intersection
+
+   0.4 Union
+
+   0.5 Power set
+
 0. Real numbers
    
-   0.1 Natural numbers
+   1.1 Natural numbers
    
-   0.2 Integers
+   1.2 Integers
    
-   0.3 Rational numbers
+   1.3 Rational numbers
    
-   0.4 Real numbers
+   1.4 Real numbers
    
 1. Complex numbers
 
-   1.1 Definition
+   2.1 Definition
 
-   1.2 Arithmetic operations
+   2.2 Arithmetic operations
 
 2. Functions
 
-   2.1 Function definition
+   3.1 Function definition
 
-   2.2 Function examples and non-examples
+   3.2 Function examples and non-examples
 
-   2.3 Graphs of functions
+   3.3 Graphs of functions
 
-   2.4 Properties of functions
+   3.4 Properties of functions
 
 3. Cardinality
 
-   3.1 Cardinality comparison
+   4.1 Cardinality comparison
 
-   3.2 Equal cardinalities
+   4.2 Equal cardinalities
 
-   3.3 Countable and uncountable sets
+   4.2 Power set cardinality
+
+   4.3 Diagonalization
+
+   4.4 Countable and uncountable sets
 
 3. Trigonometric functions
 
-   3.1 Unit circle definitions
+   5.1 Unit circle definitions
 
-   3.2 Graphs of trigonometric functions
+   5.2 Graphs of trigonometric functions
 
-   3.3 Trigonometric identities
+   5.3 Trigonometric identities
 
 4. Polynomial functions
    
-   4.0 Polynomial definition
+   6.0 Polynomial definition
    
-   4.1 Adding and multiplying polynomials
+   6.1 Adding and multiplying polynomials
    
-   4.2 Factoring polynomials
+   6.2 Factoring polynomials
    
-   4.4 Roots of polynomials
-
+   6.4 Roots of polynomials
 
 5. Complex functions
 
-   5.0 Complex function definition
+   7.0 Complex function definition
    
-   5.1 Iterated function systems
+   7.1 Iterated function systems
 
-   5.2 Complex sin and cos functions
+   7.2 Complex sin and cos functions
 
-   5.3 Complex exponential function
+   7.3 Complex exponential function
    
 6. Abstract algebra
 
-   6.1 Rings
+   8.1 Rings
    
-   6.2 Fields
+   8.2 Fields
    
 6. Derivatives
 
-   5.1 Rates of change
+   7.1 Rates of change
 
-   5.2 Limit concept
+   7.2 Limit concept
 
-   5.3 Derivative as limit of discrete change
+   7.3 Derivative as limit of discrete change
 
-   5.4 Why it makes sense that cos is derivative of sin.
+   7.4 Why it makes sense that cos is derivative of sin.
