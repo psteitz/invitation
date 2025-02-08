@@ -24,6 +24,14 @@
 
    2.4 Properties of functions
 
+3. Cardinality
+
+   3.1 Cardinality comparison
+
+   3.2 Equal cardinalities
+
+   3.3 Countable and uncountable sets
+
 3. Trigonometric functions
 
    3.1 Unit circle definitions
