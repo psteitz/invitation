@@ -30,6 +30,13 @@ less than or equal to the cardinality of $A$, then $A$ and $B$ have the same car
 
 $\lvert{A}\rvert \le \lvert{B}\rvert$ and $\lvert{B}\rvert \le \lvert{A}\rvert$ implies $\lvert{A}\rvert = \lvert{B}\rvert$ 
 
+Try to prove the Shroeder-Bernstein Theorem yourself before you look at the proof through the link above.  
+
+To prove the theorem:
+
+Assume you have injective $f: A \to B$ and injective $g: B \to A$.
+Show that from these you can somehow make $h: A \to B$ that is a bijection.
+
 ## Diagonalization
 
 ## Countable and uncountable sets
