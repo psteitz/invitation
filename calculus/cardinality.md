@@ -39,9 +39,19 @@ Show that from these you can somehow make $h: A \to B$ that is a bijection.
 
 ## Diagonalization
 
+Cantor invented a technique called _diagonalization_ to show that $\lvert \mathbb{R} \rvert$ is strictly larger than $\lvert \mathbb{N} \rvert.$  To do that, he needed to show that there can be no
+injective $f: \mathbb{R} \to \mathbb{N}$.  The argument is by 
+contradiction.  Assume there is an injective $f: \mathbb{R} \to \mathbb{N}.$ Then the elements of $\mathbb{R}$ can be written in
+a list $r_0, r_1, ..., r_n, r_{n + 1}, ...$
+Consider the real number $s$ defined as follows,
+Start with $s = 0$
+For each $i$, set the $i$th decimal digit in $s to whatever value $r_i$ has in that place plus one mod 10.
+
+
+
 ## Countable and uncountable sets
 
-A set $A$ is _countable_ if $\lvert{A}\rvert \le \lvert\mathbb{N}\rvert$
+A set $A$ is _countable_ if $\lvert{A}\rvert \le \lvert\mathbb{N}\rvert$.
 
 The exercises above show that the integers and rational numbers are both countable sets.  It turns out that _the real numbers are uncountable_.
 
