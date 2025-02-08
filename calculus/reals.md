@@ -182,7 +182,11 @@ For real numbers, $\lvert a - b \rvert$ can be viewed as the distance between $a
 
 There are other ways to define distance between points in $\mathbb{R}^n$, but the above definition, which extends naturally to any $n$-dimensional real vector space, is the most common.  The distance measure that it represents is called _Euclidean distance_.
 
-All distance measures satisfy what is known as the _triangle inequality_, which states that the distance between point $a$ and point $c$ is less than or equal to the distance between point $a$ and point $b$ plus the distance between point $b$ and point $c$.  Intuitively, this says that going directly from $a$ to $c$ can't be a longer trip than doing the same but making a side trip to $b$.
+All distance measures satisfy what is known as the _triangle inequality_, which states that the distance between point $a$ and point $c$ is less than or equal to the distance between point $a$ and point $b$ plus the distance between point $b$ and point $c$.  In the notation above, that means for any real vectors $a, b, c$
+
+$\lvert a - b \rvert + \lvert b - c \rvert \le \lvert a - c \rvert$.
+
+Intuitively, this says that going directly from $a$ to $c$ can't be a longer trip than doing the same but making a side trip through $b$.
 
 Prove that with distance defined as above, the triangle inequality holds in $\mathbb{R}^2$.
 
