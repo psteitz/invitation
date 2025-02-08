@@ -147,7 +147,7 @@ Now consider the prime factorizations of $m$ and $n$.  Since $m$ is even, its pr
 
 A _real vector_ is an finite ordered list of real numbers.  The number of elements in the list is the _dimension_ of the vector. The individual elements in the list are called the _components_ of the vector.  We represent vectors by listing their components inside parentheses.  For example,
 
-$(0,1)$ is a 2-dimensional real vector with first component $0$ and second component $1$
+$(0,1)$ is a 2-dimensional real vector with first component $0$ and second component $1$.
 
 $(-7, \sqrt{3}, \pi)$ is a 3-dimensional real vector
 
@@ -157,9 +157,15 @@ For each $n \geq 1$, we use $\mathbb{R}^n$, pronounced "R n" to denote the set o
 
 For dimensions $2$ and $3$ we can visualize real vectors.  We visualize 2-dimensional vectors using the _Cartesian Coordinate Plane_
 
-![image](https://mathinsight.org/media/image/image/cartesian_axes_2d_point.png)
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcsw3ZkrgU8LSlxRD6ubSFNI3Poy-UdaBIQ&s)
 
-The picture shows the real vector $(-3, 2)$ in $\mathbb{R}^2$ represented by the point with $x$ coordinate $-3$ and $y$ coordinate $2$.
+
+The picture shows the real vector $(6, 4)$ in $\mathbb{R}^2$ represented by the point with $x$ coordinate $6$ and $y$ coordinate $4$.
+
+We can visualize points (vectors) in $\mathbb{R}^3$ by adding a third coordinate axis.
+
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjKt_0_ryskvg0taTZ0aITw-w0rrBIog44w&s)
+
 
 
 
