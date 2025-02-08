@@ -166,6 +166,30 @@ We can visualize points (vectors) in $\mathbb{R}^3$ by adding a third coordinate
 
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjKt_0_ryskvg0taTZ0aITw-w0rrBIog44w&s)
 
+We can compute the distance between points in $\mathbb{R}^2$ using the pythagorean theorem:
+
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4AkZYNs0Z7Y85-m7ifSmwuGhI6nAsVPeRK35r57kvLw7yVVq4VZO3U4kBrjNfnnB8QCA&usqp=CAU
+)
+
+The distance $d$ above is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+
+The same can be done for points in $\mathbb{R}^3$
+
+![image](https://i.ytimg.com/vi/Y9-7SjOxwZw/maxresdefault.jpg
+)
+
+For real numbers, $\lvert a - b \rvert$ can be viewed as the distance between $a$ and $b$ (draw some points on the number line and this should be clear).  We use this same notation for the distance between points in higher dimensional spaces.  So for example, $\lvert (2,3) - (1,1) \rvert$ represents the distance between $(2,3)$ and $(1,1)$.
+
+There are other ways to define distance between points in $\mathbb{R}^n$, but the above definition, which extends naturally to any $n$-dimensional real vector space, is the most common.  The distance measure that it represents is called _Euclidean distance_.
+
+All distance measures satisfy what is known as the _triangle inequality_, which states that the distance between point $a$ and point $c$ is less than or equal to the distance between point $a$ and point $b$ plus the distance between point $b$ and point $c$.  Intuitively, this says that going directly from $a$ to $c$ can't be a longer trip than doing the same but making a side trip to $b$.
+
+Prove that with distance defined as above, the triangle inequality holds in $\mathbb{R}^2$.
+
+What has to be true about $a$, $b$ and $c$ in $\mathbb{R}^2$ in order for $\lvert a - b \rvert + \lvert b - c \rvert = \lvert a - c \rvert.$  Prove your assertion.
+
+
+
 
 
 
