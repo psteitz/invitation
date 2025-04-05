@@ -90,8 +90,54 @@ What can you say about the graph of $p$?
 Write $p$ in standard form.
 
 ## Factoring polynomials
+When you can express a polynomial as the product of two lowwer-degree polynomials, we call that "factoring" the polynomial.  For example, the second degree polynomial $p(x) = x^2 - 1$
+can be factored into the product of the two monomials $(x - 1)$ and $(x + 1)$ since $x^2 - 1 = (x + 1)(x -1)$.  
 
+Polynomials that can't be factored are called *prime polynomials*
 
+Here are some more examples
+
+$x^2 + x - 6 = (x + 3) (x - 2)$
+
+$x^2 + 4x + 4 = (x + 2) (x + 2)$
+
+$x^3 + 3x^2 + 3x + 1 = (x + 1)^3 = (x + 1) (x + 1) (x + 1)$
+
+Factor the following polynomials
+
+---
+
+$x^2 + 14x + 49$
+
+$x^2 - 2x - 6$
+
+$2x^2 - 25$
+
+$3x^5 - 17x^4 - 28x^3$
+
+---
 ## Roots of polynomials
+
+A number $r$ is a *root* of the polynomial $p(x)$ if $p(r) = 0$.
+
+The roots of a polynomial are the places where its graph crosses the $x$ axis.  Not all polynomials have roots.  The number of roots of a polynomial must be less than or equal to its degree.
+
+The *Factor Theorem* states that if $r$ is a root of $p$, then $p$ can be factored into $(x - r)q(x)$ where $q$ is another polynomial.
+
+Find the roots of the following polynomials
+
+---
+
+$x^2 + 2x + 1$
+
+$x^2 + 3x - 4$
+
+$x^2 + 1$
+
+$x^7$
+
+$(x - 2)^2(x + 7)^4(x-9)$
+
+---
 
 
