@@ -138,6 +138,8 @@ $x^7$
 
 $(x - 2)^2(x + 7)^4(x-9)$
 
+Find an example of a prime polynomial of degree larger than 1.  Use the Factor Theorem to prove that no prime polynomial of degree larger than 1 can have any roots.
+
 ---
 
 
