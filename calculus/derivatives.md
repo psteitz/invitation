@@ -7,6 +7,10 @@ One of the most useful concepts in calculus is the rate of change of a function.
 
 Just looking at the graph and plotting points doesn't give us a precise definition of what "steepness" means in the sense that we have been using that word. 
 
+When you think about it, it's not even obvious exactly what the rate of change means at a point. "How fast is the function increasing/decreasing?"  Generally, when we talk about rates of change, we refer to some kind of interval, not a point.  For example, when we say a car is traveling at 80 miles per hour, we mean that if it keeps going at that same speed it will travel 80 miles in an hour.
+
+Give three more examples of rates of change in physical or social systems. Try to determine how these rates are defined and computed.
+
 ## Limit concept
 
 ## Derivative as limit of discrete change
