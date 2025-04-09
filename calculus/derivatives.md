@@ -11,6 +11,8 @@ When you think about it, it's not even obvious exactly what the rate of change m
 
 Give three more examples of rates of change in physical or social systems. Try to determine how these rates are defined and computed.
 
+## Average rates of change
+
 ## Limit concept
 
 ## Derivative as limit of discrete change
