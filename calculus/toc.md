@@ -86,8 +86,16 @@
 
    7.1 Rates of change
 
-   7.2 Limit concept
+   7.2 Average rates of change
 
-   7.3 Derivative as limit of discrete change
+   7.3 Limit concept
 
-   7.4 Why it makes sense that cos is derivative of sin.
+   7.4 Derivative as limit of discrete change
+
+   7.5 Why it makes sense that cos is derivative of sin
+
+   7.6 Derivatives of poynomial functions
+
+   7.7 The exponential function
+
+   7.8 The log function
