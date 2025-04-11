@@ -61,11 +61,16 @@ $\lim_{x \to 0} sin(x) = 1$
 
 What is $\lim_{x \to 0} \frac {sin(x)}{x}?$ 
 
-
 ## Derivative as limit of average change
+
+The derivative of a function at a point is the rate of change of the function at that point. We saw above that for $x^3$ and $sin(x)$ we can define that rate of change to be the value that the average rate of change of the function converges to as you consider smaller and smaller intervals around the point.  That is how we define the derivative.
+
+
 
 ## Why it makes sense that cos is derivative of sin
 
 ## Formal definition of limit
 
 ## Examples
+
+## Formal definition of derivative
