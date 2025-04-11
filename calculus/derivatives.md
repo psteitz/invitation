@@ -13,6 +13,40 @@ Give three more examples of rates of change in physical or social systems. Try t
 
 ## Average rates of change
 
+Look carefully again at the the point $(1,1)$ on the graph of the function $f(x) = x^3$ above.  Clearly the functio is increasing at that point.  If you move a little to the right along the $x$ axis, the value of $f(x)$ increases.  If you go all the way to $x = 2$, the value goes all the way to up to $8$.  The average rate of change of the function over the interval $[1,2]$ is $(8 - 1) / (2 - 1) = 7.$ That is the slope of the line segment that connects the two points $(1,1)$ and $(2,8).$  We call that line the *secant line* because it connects points along the curve of the graph.  Let's now look at $x = 1.5.$  The value of the function at that point is ${1.5}^3 = 3.375$ so the average rate of change over the interval $[1,1.5]$ is $(3.375 - 1) / (1.5 - 1) = 4.75$.
+
+Fill in the following table:
+
+| $x$    | ($f(x) - f(1)) / (x - 1 )$|
+| -------- | ------- |
+| 2        | 7   |
+|1.5  | 4.75 |
+| 1.25 |  |
+| 1.1  |  |
+| 1.05 |  |
+
+What value does it look like these values are converging to?
+
+Explain why it makes sense that this value is the rate of change of the function at $1$.
+
+Explain how it makes sense that as the $x$ value gets closer and closer to $1$ the secant line connecting the two points used in the average rate of change computation approaches a line tangent to the curve.
+
+Make another table like the one above, but looking at points to the left of $x = 1$
+
+| $x$    | ($f(x) - f(1)) / (x - 1 )$|
+| -------- | ------- |
+| 0        |   |
+| .5  | |
+| .25 |  |
+|  .1  |  |
+| .05 |  |
+
+It is comforting to see that these values are converging on the same limit.  Why does that give us more confidence in our estimate of the rate of change of the function at $x = 1$?
+
+Use the approach above to find the rate of change of the $sin$ function at the points $\pi / 4$ and $\pi.$
+
+Find an interval of positive length over which the average rate of change of the $sin$ function is 0.
+
 ## Limit concept
 
 ## Derivative as limit of discrete change
