@@ -49,6 +49,23 @@ Find an interval of positive length over which the average rate of change of the
 
 ## Limit concept
 
-## Derivative as limit of discrete change
+We write $\lim_{x->a}f(x) = b$ to mean that as $x$ approaches $a$ (from either direction), the value of $f(x)$ converges on $b$.
 
-## Why it makes sense that cos is derivative of sin.
+For example, 
+
+$\lim_{x \to 0} x^2 = 0$ 
+
+$\lim_{x \to \pi} sin(x) = 0$ 
+
+$\lim_{x \to 0} sin(x) = 1$ 
+
+What is $\lim_{x \to 0} \frac {sin(x)}{x}?$ 
+
+
+## Derivative as limit of average change
+
+## Why it makes sense that cos is derivative of sin
+
+## Formal definition of limit
+
+## Examples
