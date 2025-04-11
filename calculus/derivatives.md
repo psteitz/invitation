@@ -63,8 +63,13 @@ What is $\lim_{x \to 0} \frac {sin(x)}{x}?$
 
 ## Derivative as limit of average change
 
-The derivative of a function at a point is the rate of change of the function at that point. We saw above that for $x^3$ and $sin(x)$ we can define that rate of change to be the value that the average rate of change of the function converges to as you consider smaller and smaller intervals around the point.  That is how we define the derivative.
+The derivative of a function at a point is the rate of change of the function at that point.
 
+We saw above that for $x^3$ and $sin(x)$ we can define that rate of change to be the value that the average rate of change of the function converges to as you consider smaller and smaller intervals around the point. This is the slope of the tangent line to the graph of the function at the point. That is how we define the derivative.
+
+Formally, 
+
+$\frac{d}{{dx}}f(x) = \mathop {\lim }\limits_{\delta \to 0} \frac{{f\left( {x + \delta } \right) - f\left(x\right)}}{\delta }$
 
 
 ## Why it makes sense that cos is derivative of sin
@@ -73,4 +78,3 @@ The derivative of a function at a point is the rate of change of the function at
 
 ## Examples
 
-## Formal definition of derivative
