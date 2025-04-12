@@ -78,8 +78,25 @@ Formally,
 
 $\frac{d}{{dx}}f(x) = \mathop {\lim }\limits_{\delta \to 0} \frac{{f\left( {x + \delta } \right) - f\left(x\right)}}{\delta }$
 
+Note that the deriviative is itself a function. When the derivative limit exists at a point, we say that the function is *differentiable* at that point.  We sometimes use the notation $f'$ for the derivative of $f$.  The process of finding $f'$ when given $f$ is called *differentiation*.
+
+Compute average rates of change at a few points to confirm that it looks like
+
+if $f(x) = x^2$ then $f' (x) = 2x$
+
+if $f(x) = sin(x)$ then $f' (x) = cos(x)$
 
 ## Why it makes sense that cos is derivative of sin
+
+Make a table of values of sin and cos for $\pi/4$ splits
+
+Add a column for whether sin is increasing, decreasing or at an min or max value.
+
+Find two points on the graph where the derivative (slope of the tangent) looks like it should be at is maximum. What is the value of the cosine function at these points.
+
+Repeat above for points where the derivative looks like it should be the most negative that it can be. Observe the value of the cosine function at these points.
+
+Finally, look at points where the slope of the sin function graph looks like it is 0 (min or max points).  What is the value of the cosine function at these points?
 
 ## Formal definition of limit
 
