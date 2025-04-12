@@ -13,7 +13,7 @@ Give three more examples of rates of change in physical or social systems. Try t
 
 ## Average rates of change
 
-Look carefully again at the the point $(1,1)$ on the graph of the function $f(x) = x^3$ above.  Clearly the functio is increasing at that point.  If you move a little to the right along the $x$ axis, the value of $f(x)$ increases.  If you go all the way to $x = 2$, the value goes all the way to up to $8$.  The average rate of change of the function over the interval $[1,2]$ is $(8 - 1) / (2 - 1) = 7.$ That is the slope of the line segment that connects the two points $(1,1)$ and $(2,8).$  We call that line the *secant line* because it connects points along the curve of the graph.  Let's now look at $x = 1.5.$  The value of the function at that point is ${1.5}^3 = 3.375$ so the average rate of change over the interval $[1,1.5]$ is $(3.375 - 1) / (1.5 - 1) = 4.75$.
+Look carefully again at the the point $(1,1)$ on the graph of the function $f(x) = x^3$ above.  Clearly the function is increasing at that point.  If you move a little to the right along the $x$ axis, the value of $f(x)$ increases.  If you go all the way to $x = 2$, the value goes all the way to up to $8$.  The average rate of change of the function over the interval $[1,2]$ is $(8 - 1) / (2 - 1) = 7.$ That is the slope of the line segment that connects the two points $(1,1)$ and $(2,8).$  We call that line the *secant line* because it connects points along the curve of the graph.  Let's now look at $x = 1.5.$  The value of the function at that point is ${1.5}^3 = 3.375$ so the average rate of change over the interval $[1,1.5]$ is $(3.375 - 1) / (1.5 - 1) = 4.75$.
 
 Fill in the following table:
 
@@ -43,23 +43,30 @@ Make another table like the one above, but looking at points to the left of $x =
 
 It is comforting to see that these values are converging on the same limit.  Why does that give us more confidence in our estimate of the rate of change of the function at $x = 1$?
 
-Use the approach above to find the rate of change of the $sin$ function at the points $\pi / 4$ and $\pi.$
+Use the approach above to find the rate of change of the $sin$ function at the points $\pi / 4$ and $\pi.$  Use a calculator to compute the values of the function.  Make sure that the calculator is configured to take inputs in radians.  Here is one of many [online trig function calculators](https://www.calculatorsoup.com/calculators/trigonometry/trigonometricfunctions.php).
 
 Find an interval of positive length over which the average rate of change of the $sin$ function is 0.
 
 ## Limit concept
 
-We write $\lim_{x->a}f(x) = b$ to mean that as $x$ approaches $a$ (from either direction), the value of $f(x)$ converges on $b$.
+We write $\mathop {\lim }\limits_{x \to a} f(x) = b$ to mean that as $x$ approaches $a$ (from either direction), the value of $f(x)$ converges on $b$.
 
 For example, 
 
-$\lim_{x \to 0} x^2 = 0$ 
+$\mathop {\lim }\limits_{x \to 0} x^2 = 0$ 
 
 $\lim_{x \to \pi} sin(x) = 0$ 
 
-$\lim_{x \to 0} sin(x) = 1$ 
+$\mathop {\lim }\limits_{x \to 0} sin(x) = 1$ 
 
-What is $\lim_{x \to 0} \frac {sin(x)}{x}?$ 
+Evaluate the following limits:
+
+$\mathop {\lim }\limits_{x \to \infty} \frac {x + 1}{x}$ 
+
+$\mathop {\lim }\limits_{x \to \infty} \frac {1}{x}$ 
+
+$\mathop {\lim }\limits_{x \to 0} \frac {sin(x)}{x}$ 
+
 
 ## Derivative as limit of average change
 
