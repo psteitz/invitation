@@ -86,6 +86,29 @@ if $f(x) = x^2$ then $f' (x) = 2x$
 
 if $f(x) = sin(x)$ then $f' (x) = cos(x)$
 
+### Canonical example - velocity and distance
+Consider an object moving along the positive real axis.  Assume that it starts at $0$ at time $t = 0$ and at any time $t>0$ its position measured in feet is $d(t).$ 
+
+Suppose that the object is moving at a constant velocity of $5$ feet per second.
+
+Draw the graph of $d(t)$
+
+Find $d' (1)$ 
+
+How can you tell from the shape of the graph that $d' (t)$ is the same value as above for all $t>0$?
+
+It looks like $d' (t) = 5$ for all $t$ so the derivative of distance is velocity in this example. This is no accident.  Whenever the distance function is differentiable, its derivative is always the velocity function.  
+
+Note how this makes sense in this case:
+
+Velocity is the rate of change of distance over time.  Constant velocity of $5$ feet per second means that the rate of change of distance always takes the value $5$.  
+
+Suppose that Alice climbs a trail with a bone in her mouth to get to an outropping at the top that has a sheer drop of 400 ft to a canyon floor below.  Fortunately, Alice stops at the edge, but she drops her bone.
+
+Assuming that the bone just drops out of her mouth and ignoring wind resistance, it will fall according to the laws of gravity, which means that it will accelerate by $32$ ft/second every second.  
+
+
+
 ## Why it makes sense that cos is derivative of sin
 
 Make a table of values of sin and cos for $\pi/4$ splits
