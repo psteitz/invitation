@@ -113,6 +113,9 @@ In this case, the distance function is a little more complicated.  Velocity is $
 
 How long will it take Alice's bone to reach the canyon floor?
 
+Imagine now that Alice gets abducted by (nice,vegan) aliens and she ends up doing the same thing at a similar place on their planet where there is less gravity so the acceleration due to gravity is only 10 ft/sec/sec.  How long does the bone take now?
+
+
 ## Why it makes sense that cos is derivative of sin
 
 Make a table of values of sin and cos for $\pi/4$ splits
