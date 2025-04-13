@@ -89,7 +89,9 @@ if $f(x) = sin(x)$ then $f' (x) = cos(x)$
 ### Canonical example - velocity and distance
 Consider an object moving along the positive real axis.  Assume that it starts at $0$ at time $t = 0$ and at any time $t>0$ its position measured in feet is $d(t).$ 
 
-Suppose that the object is moving at a constant velocity of $5$ feet per second.
+Suppose that the object is moving at a constant velocity of $5$ feet per second.  
+
+Write a formula for $d(t)$
 
 Draw the graph of $d(t)$
 
@@ -105,9 +107,11 @@ Velocity is the rate of change of distance over time.  Constant velocity of $5$ 
 
 Suppose that Alice climbs a trail with a bone in her mouth to get to an outropping at the top that has a sheer drop of 400 ft to a canyon floor below.  Fortunately, Alice stops at the edge, but she drops her bone.
 
-Assuming that the bone just drops out of her mouth and ignoring wind resistance, it will fall according to the laws of gravity, which means that it will accelerate by $32$ ft/second every second.  
+Assuming that the bone just drops out of her mouth and ignoring wind resistance, it will fall according to the laws of gravity, which means that it will accelerate by $32$ ft/second every second.  So after $1$ second it will be falling at $32$ ft/sec, after $2$ seconds it will be going down $64$ ft/sec and so on, constantly accelerating until it hits the canyon floor.
 
+In this case, the distance function is a little more complicated.  Velocity is $d' (t) = v(t) = 32t$.  To find $d(t)$ we have to somehow find the function whose derivative $v(t)$ is, i.e., its "anti-derivative."  We don't have the tools to do that just yet, but we will see later that if we set $d(t) = \frac {1}{2} 32 t^2 = 16t^2$ then $v(t) = d' (t) = 32t$.
 
+How long will it take Alice's bone to reach the canyon floor?
 
 ## Why it makes sense that cos is derivative of sin
 
