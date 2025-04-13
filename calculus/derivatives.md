@@ -115,6 +115,16 @@ How long will it take Alice's bone to reach the canyon floor?
 
 Imagine now that Alice gets abducted by (nice,vegan) aliens and she ends up doing the same thing at a similar place on their planet where there is less gravity so the acceleration due to gravity is only 10 ft/sec/sec.  How long does the bone take now?
 
+Note that acceleration is the derivative of velocity which makes it the derivative of the derivative of distance.  We call that the *second* derivative - the rate of change of the rate of change of the function.
+
+It's worth thinking about this basic example over and over again because it illustrates the derivative concept in a simple, physical way:
+
+velocity is the rate of change of distance - $v(t) = d' (t)$
+
+acceleration is the rate of change of velocity - $a(t) = v' (t) = d'' (t)$
+
+In the first example, velocity was constant, so $a(t) = 0$ everywhere.  In the Alice adventure examples, $a(t)$ is a non-zero constant.
+
 
 ## Why it makes sense that cos is derivative of sin
 
