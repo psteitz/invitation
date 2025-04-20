@@ -161,6 +161,8 @@ The problem above is that there are two different numbers that the derivative ex
 ### Limit Definition
 $\mathop {\lim }\limits_{x \to a} = L$ means that for every real number $\epsilon > 0$, there is a real number $\delta > 0$ such that for all $x$ such that $|x - a| < \delta$ we have $|f(x) - L| < \epsilon$.
 
+Lets look at some example limits.  Suppose that $f(x) = 2x$.  What is $\mathop {\lim }\limits_{x \to 1} f(x)$?  If you make a little table of values of the $f$ near $x=1$ it's easy to see that the value of this limit is $f(1) = 2$.  To show that the limit definition is satisfied here we have to show that for any $\epsilon>0$ there is a $\delta > 0$ such that if $x$ is within $\delta$ of $1$ then $f(x)$ will be within $\epsilon$ of $2$. So suppose that $\epsilon > 0$ is given.  We need to find $\delta > 0$ so that if $|x - 1| < \delta$ then $|2x - 2| < \epsilon$.
+
 It's a little awkward that we have always say, "for every $\epsilon$ there is a $\delta$...".  Show why we can't dispense with $\delta$ to just say "for every real number $\epsilon > 0$, for all $x$ such that $|x - a| < \epsilon$ we have $|f(x) - L| < \epsilon$".  I am asking you to find a function $f$ and a value $a$ where the value of $f(x)$ converges to a limit $L$ as $x$ approaches $a$, but for some $\epsilon$, keeping $x$ within $\epsilon$ of $a$ does not keep $f(x)$ within $\epsilon$ of $f(a)$.
 
 ## Examples
