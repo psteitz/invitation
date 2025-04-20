@@ -161,7 +161,15 @@ The problem above is that there are two different numbers that the derivative ex
 ### Limit Definition
 $\mathop {\lim }\limits_{x \to a} = L$ means that for every real number $\epsilon > 0$, there is a real number $\delta > 0$ such that for all $x$ such that $|x - a| < \delta$ we have $|f(x) - L| < \epsilon$.
 
-Lets look at some example limits.  Suppose that $f(x) = 2x$.  What is $\mathop {\lim }\limits_{x \to 1} f(x)$?  If you make a little table of values of the $f$ near $x=1$ it's easy to see that the value of this limit is $f(1) = 2$.  To show that the limit definition is satisfied here we have to show that for any $\epsilon>0$ there is a $\delta > 0$ such that if $x$ is within $\delta$ of $1$ then $f(x)$ will be within $\epsilon$ of $2$. So suppose that $\epsilon > 0$ is given.  We need to find $\delta > 0$ so that if $|x - 1| < \delta$ then $|2x - 2| < \epsilon$.
+Lets look at some example limits.  
+
+Suppose that $f(x) = 2x$.  What is $\mathop {\lim }\limits_{x \to 1} f(x)$?  If you make a little table of values of the $f$ near $x=1$ it's easy to see that the value of this limit is $f(1) = 2$.  To show that the limit definition is satisfied here we have to show that for any $\epsilon>0$ there is a $\delta > 0$ such that if $x$ is within $\delta$ of $1$ then $f(x)$ will be within $\epsilon$ of $2$. So suppose that $\epsilon > 0$ is given.  We need to find $\delta > 0$ so that if $|x - 1| < \delta$ then $|2x - 2| < \epsilon$.  Since $|2x - 2| = |2(x - 1)| = 2|x - 1|$ if we just use $\delta = \epsilon / 2$ then $|x - 1| < \delta$ means 2|x - 1|$ < 2\delta = \epsilon$.
+
+Now lets look at $f(x) = x^2$ at the point $x = 0.$  What is $\mathop {\lim }\limits_{x \to 0} f(x)$?  A good guess is the value of the function at the point, which is correct in this case
+
+${\lim }\limits_{x \to 0} f(x) = 0$
+
+To prove that this value is correct, let $\epsilon$ be an arbitrary positive real number.  We need to find a positive $\delta$ such that if $|x - 0| < \delta$, we must have $|x^2 - 0|$ < \epsilon$. Without loss of generality, we may assume that $\epsilon$ is less than $1$ (why?).  In this case, we can just use $\delta = \epsilon.$  As long as $|x - 0| = |x| < \delta$, then $|x^2 - 0| = |x^2| = |x|^2 < \delta ^ 2 = \epsilon ^ 2 < \epsilon$ (since $\epsilon < 1$).
 
 It's a little awkward that we have always say, "for every $\epsilon$ there is a $\delta$...".  Show why we can't dispense with $\delta$ to just say "for every real number $\epsilon > 0$, for all $x$ such that $|x - a| < \epsilon$ we have $|f(x) - L| < \epsilon$".  I am asking you to find a function $f$ and a value $a$ where the value of $f(x)$ converges to a limit $L$ as $x$ approaches $a$, but for some $\epsilon$, keeping $x$ within $\epsilon$ of $a$ does not keep $f(x)$ within $\epsilon$ of $f(a)$.
 
