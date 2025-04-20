@@ -140,5 +140,27 @@ Finally, look at points where the slope of the sin function graph looks like it 
 
 ## Formal definition of limit
 
+When we looked at the average rate of change of $f(x) = x^3$ for different $x$ values above, we saw the average approached a limiting value when the average was taken over smaller and smaller intervals around $x$. In particular, we saw that for $x$ equals $1$, the limiting value is $3$.
+
+We need a rigorous defintion of what it means for $f(x)$ to approach a fixed value $L$ as $x$ approaches a liniting value $a$.   
+
+To get a better idea what we are shooting for here it is a good idea to look at a "non-example", i.e. a function and a point where the average rate of change does not converge to number $L$. It's important to learn early and always keep in mind that derivatives often don't exist (there is no fixed limit).  When that happens, we say that that the function is *not differentiable* at the point where the limit "fails to converge."
+
+Consider the function $f(x) = |x|.$  Draw its graph.  From looking at the graph, what does it look like the rate of change of the function is at $x = 1, x = 2, x =-1$?  
+
+Now consider $x = 0$.  What about that point?  If we look at points to the right of $0$, the average rate of change between the function at $0$ and those points is always $1$.  Its graph for $x \ge 0$ is the line $y=x.$  But approaching $0$ from the other side, the average rate of change is always $-1$ because the graph on negative side of the real axis is the line $y=-x$.
+
+In the case above, we say the limit *does not exist*.  So formally
+
+$\mathop {\lim }\limits_{h \to 0} \frac {|x + h| - |x|} {h}$
+
+does not exist.
+
+The problem above is that there are two different numbers that the derivative expression can take arbitrarily close to $x=0$.  The limit definition says that can't happen - i.e., however close you want to force the limit expression to be to $L$, you can force that to be true if you force $h$ to be sufficiently close to $0$.  So we define $\mathop {\lim }\limits_{x \to a} = L$ to mean that however close we want to force $f(x)$ to be to $L$, there is a tolerance that we can set on $x$ so that if $x$ is within that tolerance of $a$, then $f(x)$ will be that close to $L.$
+
+### Limit Definition
+$\mathop {\lim }\limits_{x \to a} = L$ means that for every real number $\epsilon > 0$, there is a real number $\delta > 0$ such that for all $x$ such that $|x - a| < \delta$ we have $|f(x) - L| < \epsilon$.
+
+
 ## Examples
 
