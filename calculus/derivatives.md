@@ -37,9 +37,9 @@ Make another table like the one above, but looking at points to the left of $x =
 | -------- | ------- |
 | 0        |   |
 | .5  | |
-| .25 |  |
-|  .1  |  |
-| .05 |  |
+| .75 |  |
+|  .9  |  |
+| .95 |  |
 
 It is comforting to see that these values are converging on the same limit.  Why does that give us more confidence in our estimate of the rate of change of the function at $x = 1$?
 
