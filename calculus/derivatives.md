@@ -57,7 +57,7 @@ $\mathop {\lim }\limits_{x \to 0} x^2 = 0$
 
 $\lim_{x \to \pi} sin(x) = 0$ 
 
-$\mathop {\lim }\limits_{x \to 0} sin(x) = 1$ 
+$\mathop {\lim }\limits_{x \to 0} cos(x) = 1$ 
 
 Evaluate the following limits:
 
