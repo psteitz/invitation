@@ -142,7 +142,7 @@ Finally, look at points where the slope of the sin function graph looks like it 
 
 When we looked at the average rate of change of $f(x) = x^3$ for different $x$ values above, we saw the average approached a limiting value when the average was taken over smaller and smaller intervals around $x$. In particular, we saw that for $x$ equals $1$, the limiting value is $3$.
 
-We need a rigorous defintion of what it means for $f(x)$ to approach a fixed value $L$ as $x$ approaches a liniting value $a$.   
+We need a rigorous defintion of what it means for $f(x)$ to approach a fixed value $L$ as $x$ approaches a value $a$.   
 
 To get a better idea what we are shooting for here it is a good idea to look at a "non-example", i.e. a function and a point where the average rate of change does not converge to number $L$. It's important to learn early and always keep in mind that derivatives often don't exist (there is no fixed limit).  When that happens, we say that that the function is *not differentiable* at the point where the limit "fails to converge."
 
