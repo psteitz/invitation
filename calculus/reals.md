@@ -14,7 +14,7 @@ Note that $\mathbb{N}$ is not closed under either subtraction or division.  Some
 
 We look at subtraction and division as the _inverses_ of addition and multiplication, respectively.  In order for number sets to be closed under these operations, we need to have _additive inverses_ and _multiplicative inverses_.
 
-The _additive inverse_ of a number $n$, is the number $-n$ such that $n + -n = 0$.  So $-n$ "inverts" or reverses the operation of adding $n$, i.e., if $m$ is another number, $m + n + -n = m$ - adding $n$ then adding $-n$ is a no-op.
+The _additive inverse_ of a number $n$, is the number $-n$ such that $n + -n = 0$.  So $-n$ "inverts" or reverses the operation of adding $n$, i.e., if $m$ is another number, $m + n + -n = m.$ Adding $n$ then adding $-n$ is a no-op.
 
 Similarly, the _multiplicative inverse_ of $n$ is the number $n^{-1}$ such that $n \cdot n^{-1}$ = 1.  Here again, the intuition is that multiplying by $n^{-1}$ cancels the effect of multiplying by $n$.
 
@@ -135,7 +135,7 @@ More precisely, for any real number $r$ and any positive number $\epsilon$, the 
 
 Here is a modified version of Euclid's proof that $\sqrt{2}$ can't be rational.  It is a proof by contradiction. In this manner of proof, one starts by assumming the negation of the statement to be proved and then derives a contradiction, thus proving that the statement to be proved must be true.
 
-Suppose, then, that $\sqrt{2}$ is rational. Then we must be able to write $\sqrt{2} = m/n$  where $m$ and $n$ are integers.  Any fraction can be written in lowest terms, so assume without loss of generality that $m$ and $n$ have no common factors (otherwise those could be cancelled to reduce the fraction to lowest terms).  Given that  $\sqrt{2} = m/n$ it follows that  $\sqrt{2} \cdot \sqrt{2} = (m/n) \cdot (m/n$). Here we are using a standard technique called "squaring both sides" of an equation.  Writing it out fully it is clear why it is OK to do. If the two sides are equal, when you square them, you are multiplying each side by the same thing. Multiplying this out gives
+Suppose, then, that $\sqrt{2}$ is rational. Then we must be able to write $\sqrt{2} = m/n$  where $m$ and $n$ are integers.  Any fraction can be written in lowest terms, so assume without loss of generality that $m$ and $n$ have no common factors (otherwise those could be cancelled to reduce the fraction to lowest terms).  Given that  $\sqrt{2} = m/n$ it follows that  $\sqrt{2} \cdot \sqrt{2} = (m/n) \cdot (m/n$). Multiplying this out gives
 
 $2 = m^2/n^2$
 
