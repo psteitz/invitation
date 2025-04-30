@@ -189,28 +189,29 @@ Consider the function $f(x) = x$ if $x < 0$ or $x + 1$ if $x \ge 0$.  Show that 
 ### Computing Derivatives
 Computing derivatives by directly evaluating limits can be difficult and tedious.  Fortunately, there are some theorems that make finding derivatives easy for large classes of functions. To get a feeling for the power and practical applications of these techniques, we are going to just state some results, play with them a little and then return to their derivation.
 
-## Derivative of a constant
+#### Derivative of a constant
 The derivative of a constant function is $0$ for all values of $x$.
 
 For example, if $f(x) = 2$, then $f '(x) = 0$ for all $x$.
 
-## Derivative of a sum
+#### Derivative of a sum
 If $f$ and $g$ are differentiable at $x$, then $(f + g) '(x) = f '(x) + g '(x)$
 
 What this rule says is that the derivative of a sum is the sum of the derivatives.  So for example, if $f(x) = 2x$ and $g(x) = 3x$ then $(f + x)(x) = 5x$ and we can see that $(f + g) '(x) = (2x + 3x) ' = (5x) ' = 5$ which is the same as $f '(x) + g ' (x) = 2 + x$.  
 
-## Derivative of a constant times a function
+#### Derivative of a constant times a function
 The derivative of a constant times a function is the constant times the derivative of the function
 
 For example, $\frac{d}{{dx}}3 sin(x) = 3\frac{d}{{dx}}sin(x) = 3cos(x)$
 
-## Power rule
+#### Power rule
 If $f(x) = x^n$ for $n /ge 1$ then $f '(x) = nx^{n -1}$
 
 For example, $\frac{d}{{dx}}x^3 = 3x^2$ as we saw in an example above.
 
 The sum and power rules can be combined to compute the derivative of any polynomial function.  For example, $\frac{d}{{dx}}(x^2 + 2x + 1) = \frac{d}{{dx}}x^2 + \frac{d}{{dx}}2x + \frac{d}{{dx}}1 = 2x + 2 + 0 = 2x + 2$
 
+#### Examples
 Compute the following derivatives
 
 $\frac{d}{{dx}}(x^4 + 3x^2  - x)$
@@ -218,5 +219,15 @@ $\frac{d}{{dx}}(x^4 + 3x^2  - x)$
 $\frac{d}{{dx}}(2x^3 -x^2 + 1)$
 
 $\frac{d}{{dx}}(x + 1)^3$
+
+Back on earth, Alice sees a rattlesnake on the trail and she jumps straight up in the air with initial velocity 100 ft/sec.  Ignoring air resistance, after leaving the ground she will be decellerating at $32 ft/sec^2$  (that means 32 feet per second per second).  
+
+Write the formula for a function $d(t)$ that gives her height above the ground at time $t$.
+
+Write a formula for $d '(t) = v(t) = " her upward velocity at time $t$.
+
+Find the time when she will turn around and start heading back to earth.
+
+Draw the graph of $d(t)$ and explain why the answer to the last question makes sense.
 
 
