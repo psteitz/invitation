@@ -205,7 +205,7 @@ The derivative of a constant times a function is the constant times the derivati
 For example, $\frac{d}{{dx}}3 sin(x) = 3\frac{d}{{dx}}sin(x) = 3cos(x)$
 
 #### Power rule
-If $f(x) = x^n$ for $n /ge 1$ then $f '(x) = nx^{n -1}$
+If $f(x) = x^n$ for $n \ge 1$ then $f '(x) = nx^{n -1}$
 
 For example, $\frac{d}{{dx}}x^3 = 3x^2$ as we saw in an example above.
 
